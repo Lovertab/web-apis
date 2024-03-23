@@ -4,3 +4,20 @@
     margin: 0;
     padding: 0;
 }
+
+#right-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#left-column {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    text-align: center;
+    /* padding: 3em; */
+    /* margin-bottom: 5em; */
+}

@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web APIs</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
-<header>My First Blog</header>
 
 <body>
-
+    <header>
+        <h1>My First Blog</h1>
+        <nav><button>Theme</button></nav>
+    </header>
+    <main>
+        <section id="left-column">
+            <h2>left side</h2>
+        </section>
+        <section id="right-column">
+            <section>
+                <h2>What's on your mind?</h2>
+            </section>
+            <section id="form">
+                <form action="" method="dialog">
+                    <div class="form-input">
+                        <label for="name">Username:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="title">Blog Tile:</label>
+                        <input type="text" name="title" id="title" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="content">Blog Content:</label>
+                        <input type="text" name="content" id="content" required>
+                    </div>
+                    <div class="form-input">
+                        <input type="button" value="submit">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
 </body>
 
 </html>
